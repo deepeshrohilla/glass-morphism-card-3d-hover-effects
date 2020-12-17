@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(jswallpaper.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+    height: 400px;
+    box-shadow: 0 0 30px #00000055;
+    overflow: hidden;
+    backdrop-filter: blur(20px);
+    border: 2px solid #ffffff30;
+    cursor: pointer;
+}
+
+img {
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid #ffffff30;
+    transition: 0.4s;
+}
+
+.card:hover img {
+    border: 2px solid #fff;
+    transition: 0.4s;
+}
+
+h1 {
+    color: #ffffff30;
+    margin-top: 15px;
+    transition: 0.4s;
+}
+
+.card:hover h1 {
+    color: #fff;
+    transition: 0.4s;
+}
+
+h3 {
+    color: #ffffff30;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    transition: 0.4s;
+}
+
+.card:hover h3 {
+    color: #fff;
+    transition: 0.4s;
+}
+
+.icons i {
+    margin: 20px 10px 0;
+    font-size: 2em;
+    color: #ffffff30;
+    transition: 0.4s;
+}
+
+.card:hover .icons i {
+    color: #ffffff;
+    transition: 0.4s;
+}
